@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro);
+body {
+color: white;
+  text-align: center;
+   background: url("./giphyold2.gif") no-repeat center center fixed;
+   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1.main-title {
+  padding:5px;
+  font-size: 20vh;
+    font-family: 'Advent Pro', sans-serif;
+  color: white;
+}
+div#space{
+   padding:90px;
+}
+body#home_complete{
+   background: url("./giphy-4.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#new_complete{
+   background: url("./giphy-3.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#feed_complete{
+   background: url("./giphy-6.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+div#feed{
+  color: black;
+  background-color: white;
+  border:1px solid white;
+  
+}
+div#url{
+   color:white;
+   font-family: 'Advent Pro', sans-serif;
+  font-size: 5vh;
+  transform: translateY(30%)
+}
+input{
+  font-size: 5vh;
+    font-family: 'Advent Pro', sans-serif;
+}
+a{
+  color: white;
+ text-decoration: none;
+  font-family: 'Advent Pro', sans-serif;
+  transition:color 3s, font-size 3s;
+  font-size: 5vh;
+  
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+  font-size: 7vh;
+  
+}
+h6{
+  color:white;
+   font-family: 'Advent Pro', sans-serif;
+  font-size: 5vh;
+}
+
+.button {
+   border: 1px solid #ffffff;
+   background: #fafafa;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fafafa));
+   background: -webkit-linear-gradient(top, #ffffff, #fafafa);
+   background: -moz-linear-gradient(top, #ffffff, #fafafa);
+   background: -ms-linear-gradient(top, #ffffff, #fafafa);
+   background: -o-linear-gradient(top, #ffffff, #fafafa);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+   padding: 4px 8px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #bd7fbd 0 1px 0;
+   color: #7f0a8a;
+   font-size: 24px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 1px solid #ffffff;
+   text-shadow: #8feeff 0 1px 0;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   color: #2ee0ff;
+   }
+.button:active {
+   text-shadow: #ffff87 0 1px 0;
+   border: 1px solid #ffffff;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   color: #f7ff00;
+   }
+h6{
+  color:black;
+}

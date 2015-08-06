@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Gifeed</title>
+  
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+   
+
+ </head>
+  <body id="feed_complete">
+<div id="space">
+    <div id="home">
+      <h1 class="main-title"> Gifeed</h1> 
+    </div>
+    <div class="upload-link">
+      <br>
+      <br>
+      <br>
+      <a href="/new_gif">Upload Gif</a><br>
+    </div>
+  </div>
+
+       <div id="feed"> 
+         <% @gifs.each do|gif|%>
+         <h6> <%= gif.user.username %>: <img src="<%= gif.url %>"> <br></h6>
+    <%end%>    
+      </div>
+ 
+      
+     
+  
+    </body>
+</html>
