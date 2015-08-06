@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
   get '/new_gif' do
      erb :new_gif
   end
-  get '/gif_feed' do
+  get '/gifeed' do
     @gifs=Gif.all
     erb :gif_feed
   end
@@ -36,6 +36,6 @@ class ApplicationController < Sinatra::Base
     @gif.save
    
 
-    redirect '/gif_feed'
+    redirect '/gifeed'
   end
 end
