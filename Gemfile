@@ -4,6 +4,7 @@ gem "shotgun"
 gem "activerecord"
 gem "sinatra-activerecord"
 gem "rake"
+gem "pg"
 group :development do
   gem "pry"
   gem "tux"
