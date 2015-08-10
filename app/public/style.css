@@ -13,6 +13,7 @@ color: white;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 
 h1.main-title {
@@ -20,6 +21,7 @@ h1.main-title {
   font-size: 20vh;
   font-family: 'Advent Pro', sans-serif;
   color: white;
+/*   position:fixed; */
 }
 div#space{
    padding:90px;
@@ -72,6 +74,7 @@ div#feed{
   border:1px solid white;
   
 }
+
 div#url{
    color:white;
    font-family: 'Advent Pro', sans-serif;
@@ -161,4 +164,7 @@ h1.logintext{
     font-family: 'Advent Pro', sans-serif;
   font-size: 10vh
   
+}
+footer{
+    font-family: 'Advent Pro', sans-serif;
 }

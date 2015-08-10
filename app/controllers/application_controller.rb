@@ -11,7 +11,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/' do
-    @gifs = Gif.all
+    @gifs = Gif.all.reverse
     erb :gifs
   end
   
@@ -20,7 +20,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/gifeed' do
-    @gifs=Gif.all
+    @gifs=Gif.all.reverse
     erb :gifeed
   end
     
