@@ -8,8 +8,12 @@
    
 
  </head>
-  <body id="feed_complete">
-<div id="space">
+  <form action="/signout" method="GET">
+    <a id="buttonso" href="/signout">Sign Out</a>
+    
+  </form>
+    <body id="feed_complete">
+
     <div id="home">
       <h1 class="main-title"> Gifeed</h1> 
     </div>
@@ -19,7 +23,7 @@
       <br>
       <a href="/new_gif">Upload Gif</a><br>
     </div>
-  </div>
+
 
        <div id="feed"> 
          <% @gifs.each do|gif|%>
