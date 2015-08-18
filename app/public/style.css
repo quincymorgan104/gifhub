@@ -168,3 +168,10 @@ h1.logintext{
 footer{
     font-family: 'Advent Pro', sans-serif;
 }
+div.mfst_words{
+  color:white;
+  font-size: 5vh;
+}
+h1.feed{
+  color:white;
+}
